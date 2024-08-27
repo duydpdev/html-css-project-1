@@ -128,3 +128,32 @@ a {
     right: calc((100vw - 1110px) / 2 - 10rem);
     bottom: 0;
 }
+
+/* Client */
+
+.client {
+    margin-top: 12.2rem;
+}
+
+.client .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client .desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7D8589;
+}
+
+.client .row-desc {
+    margin-top: 2.3rem;
+}
+
+.client .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9.6rem;
+}
