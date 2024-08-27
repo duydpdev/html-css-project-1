@@ -139,7 +139,8 @@ a {
 
 /* ================== Clients ================ */
 .client {
-    margin-top: 12.2rem;
+    margin-top: 7.9rem;
+    padding: 4.3rem 0 6.4rem;
 }
 
 .client .row {
@@ -167,7 +168,8 @@ a {
 
 /* ================== Guides ================ */
 .guides {
-    margin-top: 10rem;
+    margin-top: 4rem;
+    padding: 9.3rem 0 7.9rem;
 }
 
 .guides .sub-title {
@@ -243,7 +245,7 @@ a {
 
 /* ================== Featured ================ */
 .featured {
-    margin-top: 12rem;
+    margin-top: 4.1rem;
     padding: 10.1rem 0;
     background: #F5FAFE;
 }
