@@ -49,16 +49,24 @@ a {
 }
 
 /* ================== Header ================ */
-.header {
+.fixed-header {
+  background: #e6f0ff;
+  padding-top: 2.6rem;
+  position: sticky;
+  top: -2.6rem;
+  z-index: 1;
+}
+
+.hero-wrap {
   position: relative;
   background: #e6f0ff;
-  height: 100vh;
+  height: 92vh;
 }
 
 .navbar {
-  padding-top: 3.8rem;
   display: flex;
   align-items: center;
+  padding: 1.2rem 0;
 }
 
 .navbar ul {
@@ -95,7 +103,7 @@ a {
 
 /* Hero */
 .hero {
-  margin-top: 13rem;
+  padding-top: 8rem;
 }
 
 .hero .info {
