@@ -139,7 +139,7 @@ a {
 
 /* ================== Clients ================ */
 .client {
-  margin-top: 7.9rem;
+  margin-top: 7rem;
   padding: 4.3rem 0 6.4rem;
 }
 
@@ -164,6 +164,16 @@ a {
   align-items: center;
   justify-content: space-between;
   margin-top: 9.6rem;
+}
+
+.client .logo img {
+  padding: 2rem 2.3rem;
+  border-radius: 1.2rem;
+}
+
+.client .logo img:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
 /* ================== Guides ================ */
@@ -572,6 +582,7 @@ a {
   font-weight: 400;
   white-space: nowrap;
 }
+
 .footer .desc {
   white-space: normal;
   line-height: 1.75;
